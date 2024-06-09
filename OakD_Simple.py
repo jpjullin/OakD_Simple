@@ -248,13 +248,7 @@ class OakD:
 
         while self.running:
             self.frame_rectified = self.q_rectified.get().getCvFrame()
-
-            start_time = time.time()
             self.frame_warped = self.q_warped.get().getCvFrame()
-            end_time = time.time()
-
-            print('Time to get frame:', end_time - start_time)
-
             self.frame = self.frame_warped
 
             if self.show_frame:
