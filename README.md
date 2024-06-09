@@ -13,6 +13,7 @@ It also offers simplified access to various camera parameters.
 Clone the repository and install the necessary dependencies:
 ```
 git clone https://github.com/jpjullin/OakD_Simple
+cd OakD_Simple
 pip install -r requirements.txt
 ```
 
