@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ## Usage Example
 
 ```
-from OakD_Simple import OakD, cv2
+from OakD_Simple.OakD_Simple import OakD, cv2
 
 # Initialize the OakD camera
 oakd = OakD()
